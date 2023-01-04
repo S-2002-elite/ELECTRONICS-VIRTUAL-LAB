@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@500&display=swap');
+*{
+    border:0;
+    padding:0;
+    margin:0;
+    outline:none;
+
+}
+html,body{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    overflow-x: hidden !important;
+}
+body{
+    background: linear-gradient(to top, blaCK,aqua,black) !important;
+    /* background: url(cms_login_background_1.jpg) !important;  */
+}
+#formid{
+    /* border:2px solid white; */
+    padding:60px 40px;
+    margin-top:80px;
+    background: rgba(0, 0, 0, 0.499) !important;
+    box-shadow: 2px 2px 10px 10px black;
+}
+h1{
+    color:white;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: -20px;
+}
+.formpage{
+    font-size: 20px;
+    color: white;
+    font-family: 'Mukta Malar', sans-serif;
+}
+.pagebutton{
+    border:0.2vw solid white;
+    background:transparent;
+    color: white;
+    border-radius: 0.5vw;
+    width: 5vw;
+    height: 2.5vw;
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+.pagebutton:hover{
+    width: 6vw;
+    height: 3vw;
+}
+.formpswd{
+    color: rgb(218, 236, 18);
+    font-size:1vw;
+}
+.formpswd:hover{
+
+    color: rgb(236, 240, 28);
+    font-size:1.1vw;
+}
+.banner{
+    position: relative;
+    height: 4px;
+    float: left;
+    width: 100%;
+
+}
+.banner img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #image{
+        /* height: 1vw; */
+        width: 6vw;
+        /* background-image: linear-gradient(to right top, #6dcddf, #01dcd6, #00e7b2, #5aec76, #a8eb12); */
+        padding: 1VW !important;
+        text-align: center !important;
+        align-items: center;
+        font-size: 1.2vw;
+        border-radius: 0.5vw;
+        font-family: 'Arvo', serif;
+        background: white;
+       
+       }
+       #submit{
+       font-size: 1.2vw; 
+        border-radius: 1px;
+        width: 5.5vw;
+        height: 3vw;
+        align-items: center;
+        border-radius: 0.5vw;
+        background-image: linear-gradient(to right top, rgb(164, 87, 164),white);
+       }
+       #captcha-id{
+        font-size: 1.3vw;
+        margin-left: 6vw;
+        margin-top: -20vw;
+        position: absolute;
+        
+       }
+       #img1{
+        
+        align-items: center;
+       }
