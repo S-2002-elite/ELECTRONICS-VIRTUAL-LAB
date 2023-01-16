@@ -138,3 +138,14 @@ body{
        width: 10vw;
        height: 10vw;
        }
+
+       #welcome-body{
+        background: white !important;
+       }
+       #welcome{
+        text-align: center !important;
+        color:black;
+       }
+       #logout{
+        text-align: center !important; 
+       }
